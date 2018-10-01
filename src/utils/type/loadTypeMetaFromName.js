@@ -12,10 +12,14 @@ const NATIVE_NAMES = {
   Plugin: resolve(__dirname, '..', '..', 'types', 'Plugin'),
   Provider: resolve(__dirname, '..', '..', 'types', 'Provider'),
   Service: resolve(__dirname, '..', '..', 'types', 'Service'),
+  // TODO: remove this entries once they are moved to the registry
   AwsProvider: resolve(__dirname, '..', '..', 'types', 'AwsProvider'),
   AwsLambdaFunction: resolve(__dirname, '..', '..', 'types', 'AwsLambdaFunction'),
   AwsIamRole: resolve(__dirname, '..', '..', 'types', 'AwsIamRole'),
-  AwsLambdaCompute: resolve(__dirname, '..', '..', 'types', 'AwsLambdaCompute')
+  AwsLambdaCompute: resolve(__dirname, '..', '..', 'types', 'AwsLambdaCompute'),
+  GoogleCloudProvider: resolve(__dirname, '..', '..', 'types', 'GoogleCloudProvider'),
+  GoogleCloudFunctionCompute: resolve(__dirname, '..', '..', 'types', 'GoogleCloudFunctionCompute'),
+  GoogleCloudFunction: resolve(__dirname, '..', '..', 'types', 'GoogleCloudFunction')
 }
 
 /**
